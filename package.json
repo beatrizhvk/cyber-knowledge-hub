@@ -1,0 +1,45 @@
+{
+  "name": "cyber-knowledge-hub",
+  "version": "1.0.0",
+  "description": "Centro de Conhecimento em Segurança Cibernética - Um hub colaborativo para aprendizado e compartilhamento de conhecimento em cybersecurity",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000",
+    "serve": "npx http-server -p 8000 -c-1",
+    "lint": "echo 'Linting will be implemented in future versions'",
+    "test": "echo 'Tests will be implemented in future versions'",
+    "build": "echo 'Build process will be implemented in future versions'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seu-usuario/cyber-knowledge-hub.git"
+  },
+  "keywords": [
+    "cybersecurity",
+    "security",
+    "knowledge-base",
+    "education",
+    "penetration-testing",
+    "incident-response",
+    "network-security",
+    "tools",
+    "resources"
+  ],
+  "author": "Cyber Knowledge Hub Contributors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seu-usuario/cyber-knowledge-hub/issues"
+  },
+  "homepage": "https://github.com/seu-usuario/cyber-knowledge-hub#readme",
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

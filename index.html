@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Knowledge Hub - Centro de Conhecimento em Segurança Cibernética</title>
+    <link rel="shortcut icon" href="assets/icons/security-shield.svg">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/dark.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/notifications.css">
+    <link rel="stylesheet" href="css/markdown.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Sidebar -->
+    <div id="sidebar" class="sidebar">
+        <div class="sidebar-content">
+            <!-- Logo/Brand Section -->
+            <div class="brand-section">
+                <div class="brand-logo">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h1>Cyber Knowledge Hub</h1>
+                <div id="brand-description">
+                    <p>Centro de Conhecimento em Segurança Cibernética</p>
+                    <p>Desde fundamentos até técnicas avançadas</p>
+                </div>
+            </div>
+
+            <!-- Navigation Menu -->
+            <nav class="main-navigation">
+                <ul>
+                    <li><a href="#home" class="nav-link active" data-section="home">
+                        <i class="fas fa-home"></i> Início
+                    </a></li>
+                    <li><a href="#fundamentals" class="nav-link" data-section="fundamentals">
+                        <i class="fas fa-book"></i> Fundamentos
+                    </a></li>
+                    <li><a href="#network-security" class="nav-link" data-section="network-security">
+                        <i class="fas fa-network-wired"></i> Segurança de Rede
+                    </a></li>
+                    <li><a href="#penetration-testing" class="nav-link" data-section="penetration-testing">
+                        <i class="fas fa-bug"></i> Pentest
+                    </a></li>
+                    <li><a href="#incident-response" class="nav-link" data-section="incident-response">
+                        <i class="fas fa-exclamation-triangle"></i> Resposta a Incidentes
+                    </a></li>
+                    <li><a href="#tools" class="nav-link" data-section="tools">
+                        <i class="fas fa-tools"></i> Ferramentas
+                    </a></li>
+                    <li><a href="#resources" class="nav-link" data-section="resources">
+                        <i class="fas fa-link"></i> Recursos
+                    </a></li>
+                    <li><a href="#contributors" class="nav-link" data-section="contributors">
+                        <i class="fas fa-users"></i> Colaboradores
+                    </a></li>
+                </ul>
+            </nav>
+
+            <!-- Social Links -->
+            <div class="social-section">
+                <a href="https://github.com/cyber-knowledge-hub" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" target="_blank" class="social-link">
+                    <i class="fab fa-discord"></i>
+                </a>
+                <a href="#" target="_blank" class="social-link">
+                    <i class="fab fa-telegram"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="content-section active">
+            <div class="hero-section">
+                <h1>Bem-vindo ao Cyber Knowledge Hub</h1>
+                <p class="hero-subtitle">Seu centro de conhecimento completo em segurança cibernética</p>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <i class="fas fa-book-open"></i>
+                        <h3>Artigos</h3>
+                        <p class="stat-number">0</p>
+                        <p class="stat-label">Em breve</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-tools"></i>
+                        <h3>Ferramentas</h3>
+                        <p class="stat-number">0</p>
+                        <p class="stat-label">Em breve</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Colaboradores</h3>
+                        <p class="stat-number">1</p>
+                        <p class="stat-label">Crescendo</p>
+                    </div>
+                </div>
+
+                <div class="cta-section">
+                    <button class="cta-button primary" onclick="showSection('fundamentals')">
+                        <i class="fas fa-rocket"></i> Começar Aprendizado
+                    </button>
+                    <button class="cta-button secondary" onclick="showSection('contributors')">
+                        <i class="fas fa-hands-helping"></i> Contribuir
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fundamentals Section -->
+        <section id="fundamentals" class="content-section">
+            <!-- Content will be loaded dynamically from markdown files -->
+        </section>
+
+        <!-- Network Security Section -->
+        <section id="network-security" class="content-section">
+            <!-- Content will be loaded dynamically from markdown files -->
+        </section>
+
+        <!-- Penetration Testing Section -->
+        <section id="penetration-testing" class="content-section">
+            <!-- Content will be loaded dynamically from markdown files -->
+        </section>
+
+        <!-- Incident Response Section -->
+        <section id="incident-response" class="content-section">
+            <!-- Content will be loaded dynamically from markdown files -->
+        </section>
+
+        <!-- Tools Section -->
+        <section id="tools" class="content-section">
+            <!-- Content will be loaded dynamically from markdown files -->
+        </section>
+
+        <!-- Resources Section -->
+        <section id="resources" class="content-section">
+            <!-- Content will be loaded dynamically from markdown files -->
+        </section>
+
+        <!-- Contributors Section -->
+        <section id="contributors" class="content-section">
+            <h2><i class="fas fa-users"></i> Colaboradores</h2>
+            <div class="contributors-grid">
+                <div class="contributor-card">
+                    <div class="contributor-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Augusto</h3>
+                    <p>Fundador & Desenvolvedor</p>
+                    <div class="contributor-links">
+                        <a href="#" class="contributor-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="contributor-link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contributor-placeholder">
+                    <div class="placeholder-avatar">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <h3>Seja um Colaborador</h3>
+                    <p>Ajude a construir este conhecimento</p>
+                    <button class="contribute-btn">
+                        <i class="fab fa-github"></i> Contribuir
+                    </button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="js/markdown-loader.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
