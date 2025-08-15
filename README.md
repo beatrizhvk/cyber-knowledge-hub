@@ -75,7 +75,7 @@ Este projeto visa criar um centro de conhecimento completo e acessível sobre se
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/cyber-knowledge-hub.git
+git clone https://github.com/augusto-cesar-dsr/cyber-knowledge-hub.git
 cd cyber-knowledge-hub
 ```
 
@@ -190,7 +190,7 @@ O projeto usa tema escuro com variáveis CSS customizáveis. Para personalizar:
 
 ## 🐛 Reportar Bugs
 
-Encontrou um bug? Por favor, abra uma [issue](https://github.com/seu-usuario/cyber-knowledge-hub/issues) com:
+Encontrou um bug? Por favor, abra uma [issue](https://github.com/augusto-cesar-dsr/cyber-knowledge-hub/issues) com:
 
 - Descrição detalhada do problema
 - Passos para reproduzir
@@ -210,9 +210,9 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ## 📞 Contato
 
-- **Projeto**: [Cyber Knowledge Hub](https://github.com/seu-usuario/cyber-knowledge-hub)
-- **Discussões**: [GitHub Discussions](https://github.com/seu-usuario/cyber-knowledge-hub/discussions)
-- **Issues**: [GitHub Issues](https://github.com/seu-usuario/cyber-knowledge-hub/issues)
+- **Projeto**: [Cyber Knowledge Hub](https://github.com/augusto-cesar-dsr/cyber-knowledge-hub)
+- **Discussões**: [GitHub Discussions](https://github.com/augusto-cesar-dsr/cyber-knowledge-hub/discussions)
+- **Issues**: [GitHub Issues](https://github.com/augusto-cesar-dsr/cyber-knowledge-hub/issues)
 
 ---
 

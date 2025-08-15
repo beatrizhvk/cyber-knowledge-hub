@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seu-usuario/cyber-knowledge-hub.git"
+    "url": "git+https://github.com/augusto-cesar-dsr/cyber-knowledge-hub.git"
   },
   "keywords": [
     "cybersecurity",
@@ -29,9 +29,9 @@
   "author": "Cyber Knowledge Hub Contributors",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/seu-usuario/cyber-knowledge-hub/issues"
+    "url": "https://github.com/augusto-cesar-dsr/cyber-knowledge-hub/issues"
   },
-  "homepage": "https://github.com/seu-usuario/cyber-knowledge-hub#readme",
+  "homepage": "https://github.com/augusto-cesar-dsr/cyber-knowledge-hub#readme",
   "devDependencies": {},
   "dependencies": {},
   "engines": {

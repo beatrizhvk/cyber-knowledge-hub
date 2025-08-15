@@ -78,7 +78,7 @@ cyber-knowledge-hub/
 
 ### Instalação Local
 ```bash
-git clone https://github.com/seu-usuario/cyber-knowledge-hub.git
+git clone https://github.com/augusto-cesar-dsr/cyber-knowledge-hub.git
 cd cyber-knowledge-hub
 python -m http.server 8000
 ```
@@ -125,5 +125,5 @@ Obrigado a todos que contribuíram para tornar esta primeira versão possível!
 
 ---
 
-**Download:** [v1.0.0](https://github.com/seu-usuario/cyber-knowledge-hub/releases/tag/v1.0.0)
-**Demo:** [https://seu-usuario.github.io/cyber-knowledge-hub](https://seu-usuario.github.io/cyber-knowledge-hub)
+**Download:** [v1.0.0](https://github.com/augusto-cesar-dsr/cyber-knowledge-hub/releases/tag/v1.0.0)
+**Demo:** [https://cyber-knowledge-hub.pages.dev/](https://cyber-knowledge-hub.pages.dev/)

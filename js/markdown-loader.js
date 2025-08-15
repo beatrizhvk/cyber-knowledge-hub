@@ -402,7 +402,7 @@ class MarkdownLoader {
                 <i class="fas fa-file-alt"></i>
                 <h3>Conteúdo em Desenvolvimento</h3>
                 <p>Esta seção ainda não possui conteúdo. Contribua adicionando arquivos .md na pasta content/${sectionId}/</p>
-                <a href="https://github.com/seu-usuario/cyber-knowledge-hub/tree/main/content/${sectionId}" 
+                <a href="https://github.com/augusto-cesar-dsr/cyber-knowledge-hub/tree/main/content/${sectionId}" 
                    target="_blank" class="contribute-link">
                     <i class="fab fa-github"></i> Contribuir
                 </a>

@@ -30,7 +30,7 @@ Este projeto adere a um código de conduta. Ao participar, você deve manter um 
 ```bash
 # Fork o repositório no GitHub
 # Clone seu fork
-git clone https://github.com/SEU-USUARIO/cyber-knowledge-hub.git
+git clone https://github.com/augusto-cesar-dsr/cyber-knowledge-hub.git
 cd cyber-knowledge-hub
 ```
 
@@ -324,8 +324,8 @@ Todos os contribuidores serão reconhecidos:
 
 ## 📞 Dúvidas?
 
-- Abra uma [issue](https://github.com/seu-usuario/cyber-knowledge-hub/issues)
-- Use [GitHub Discussions](https://github.com/seu-usuario/cyber-knowledge-hub/discussions)
+- Abra uma [issue](https://github.com/augusto-cesar-dsr/cyber-knowledge-hub/issues)
+- Use [GitHub Discussions](https://github.com/augusto-cesar-dsr/cyber-knowledge-hub/discussions)
 - Entre em contato via email (se disponível)
 
 ---
