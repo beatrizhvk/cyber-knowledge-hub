@@ -70,7 +70,7 @@ class NavigationManager {
             targetSection.classList.add('active');
             
             // Load markdown content for content sections
-            const contentSections = ['fundamentals', 'network-security', 'penetration-testing', 'incident-response', 'tools', 'resources'];
+            const contentSections = ['fundamentals', 'network-security', 'penetration-testing', 'incident-response', 'tools', 'resources', 'glossary'];
             if (contentSections.includes(sectionId)) {
                 // Wait for markdownLoader to be ready
                 const loadContent = () => {
