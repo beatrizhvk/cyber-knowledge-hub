@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://augusto-cesar-dsr.github.io/cyber-knowledge-hub/sitemap.xml
+
+# Disallow development files
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /*.json
+Disallow: /setup.sh
