@@ -14,10 +14,15 @@ class MarkdownLoader {
         // Define the content structure
         this.contentIndex = new Map([
             ['fundamentals', [
-                { file: 'cia-triad.md', title: 'CIA Triad', tags: ['fundamentos', 'conceitos'] }
+                { file: 'cia-triad.md', title: 'CIA Triad', tags: ['fundamentos', 'conceitos'] },
+                { file: 'redes-basico.md', title: 'Fundamentos de Redes', tags: ['redes', 'protocolos', 'tcp-ip'] },
+                { file: 'protocolos-web.md', title: 'Protocolos Web Essenciais', tags: ['http', 'https', 'web'] }
             ]],
             ['network-security', [
-                { file: 'firewalls.md', title: 'Firewalls', tags: ['firewall', 'network'] }
+                { file: 'firewalls.md', title: 'Firewalls', tags: ['firewall', 'network'] },
+                { file: 'network-analysis-lab.md', title: 'Setup do Lab de Análise de Rede', tags: ['setup', 'lab', 'configuração'] },
+                { file: 'traffic-analysis-lab.md', title: 'Lab 1 - Captura e Análise de Tráfego', tags: ['tcpdump', 'wireshark', 'traffic-analysis'] },
+                { file: 'reconnaissance-lab.md', title: 'Lab 2 - Network Reconnaissance', tags: ['nmap', 'reconnaissance', 'scanning'] }
             ]],
             ['penetration-testing', [
                 { file: 'nmap.md', title: 'Nmap', tags: ['nmap', 'scanning'] }
