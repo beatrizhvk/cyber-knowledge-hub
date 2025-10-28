@@ -28,7 +28,10 @@ class MarkdownLoader {
             ['tools', [
                 { file: 'burp-suite.md', title: 'Burp Suite', tags: ['burp', 'proxy'] }
             ]],
-            ['resources', []]
+            ['resources', []],
+            ['glossary', [
+                { file: 'index.md', title: 'Glossário de Segurança Cibernética', tags: ['glossário', 'terminologia'] }
+            ]]
         ]);
     }
     
@@ -391,7 +394,8 @@ class MarkdownLoader {
             'penetration-testing': 'Penetration Testing',
             'incident-response': 'Resposta a Incidentes',
             'tools': 'Ferramentas',
-            'resources': 'Recursos'
+            'resources': 'Recursos',
+            'glossary': 'Glossário'
         };
         return titles[sectionId] || sectionId;
     }
